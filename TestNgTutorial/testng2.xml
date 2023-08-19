@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test name="Regression">
+  <groups>
+  	<run>
+  		<!--<include name="Smoke"/>-->
+  		<exclude name="Smoke"/>
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="TestPackage.CarLoan"/>
+  		<class name="TestPackage.HomeLoan"/>	
+  		<class name="TestPackage.PersonalLoan"/>
+  	</classes>
+  </test>
+</suite> <!-- Suite -->
+<!--Groups are used to run/not run specific tests from a huge nnumber of tests-->

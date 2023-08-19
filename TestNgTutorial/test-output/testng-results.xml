@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T06:59:47 IST" name="Suite" finished-at="2022-10-11T06:59:48 IST" duration-ms="76">
+    <groups>
+      <group name="Smoke">
+        <method signature="CarLoan.WebLogin()[pri:0, instance:TestPackage.CarLoan@15aab8c6]" name="WebLogin" class="TestPackage.CarLoan"/>
+        <method signature="PersonalLoan.MobileLogin(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.PersonalLoan@57d7f8ca]" name="MobileLogin" class="TestPackage.PersonalLoan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-10-11T06:59:47 IST" name="Test" finished-at="2022-10-11T06:59:48 IST" duration-ms="69">
+      <class name="TestPackage.day1">
+        <test-method signature="Demo()[pri:0, instance:TestPackage.day1@524d6d96]" started-at="2022-10-11T06:59:47 IST" name="Demo" finished-at="2022-10-11T06:59:48 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Demo2()[pri:0, instance:TestPackage.day1@524d6d96]" started-at="2022-10-11T06:59:48 IST" name="Demo2" finished-at="2022-10-11T06:59:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- TestPackage.day1 -->
+      <class name="TestPackage.day2">
+        <test-method signature="demo3()[pri:0, instance:TestPackage.day2@770d3326]" started-at="2022-10-11T06:59:48 IST" name="demo3" finished-at="2022-10-11T06:59:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+      </class> <!-- TestPackage.day2 -->
+    </test> <!-- Test -->
+    <test started-at="2022-10-11T06:59:47 IST" name="Car Loan" finished-at="2022-10-11T06:59:48 IST" duration-ms="73">
+      <class name="TestPackage.CarLoan">
+        <test-method signature="MobileLogin(java.lang.String)[pri:0, instance:TestPackage.CarLoan@15aab8c6]" started-at="2022-10-11T06:59:47 IST" name="MobileLogin" finished-at="2022-10-11T06:59:48 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method signature="WebLogin()[pri:0, instance:TestPackage.CarLoan@15aab8c6]" started-at="2022-10-11T06:59:48 IST" name="WebLogin" finished-at="2022-10-11T06:59:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="WebLogout()[pri:0, instance:TestPackage.CarLoan@15aab8c6]" started-at="2022-10-11T06:59:48 IST" name="WebLogout" finished-at="2022-10-11T06:59:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogout -->
+        <test-method signature="APILogin()[pri:0, instance:TestPackage.CarLoan@15aab8c6]" started-at="2022-10-11T06:59:48 IST" name="APILogin" finished-at="2022-10-11T06:59:48 IST" depends-on-methods="TestPackage.CarLoan.WebLogin" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILogin -->
+      </class> <!-- TestPackage.CarLoan -->
+    </test> <!-- Car Loan -->
+    <test started-at="2022-10-11T06:59:47 IST" name="Personal Loan" finished-at="2022-10-11T06:59:48 IST" duration-ms="76">
+      <class name="TestPackage.PersonalLoan">
+        <test-method signature="APILogin()[pri:0, instance:TestPackage.PersonalLoan@57d7f8ca]" started-at="2022-10-11T06:59:48 IST" name="APILogin" finished-at="2022-10-11T06:59:48 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILogin -->
+        <test-method signature="MobileLogin(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.PersonalLoan@57d7f8ca]" started-at="2022-10-11T06:59:48 IST" name="MobileLogin" finished-at="2022-10-11T06:59:48 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaycom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method signature="WebLogin(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.PersonalLoan@57d7f8ca]" started-at="2022-10-11T06:59:48 IST" name="WebLogin" data-provider="getData" finished-at="2022-10-11T06:59:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="WebLogin(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.PersonalLoan@57d7f8ca]" started-at="2022-10-11T06:59:48 IST" name="WebLogin" data-provider="getData" finished-at="2022-10-11T06:59:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pwd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="WebLogin(java.lang.String,java.lang.String)[pri:0, instance:TestPackage.PersonalLoan@57d7f8ca]" started-at="2022-10-11T06:59:48 IST" name="WebLogin" data-provider="getData" finished-at="2022-10-11T06:59:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pwd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+      </class> <!-- TestPackage.PersonalLoan -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
