@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!--<groups>
+	<run>
+		<include name="Purchase"/>
+	</run>
+</groups>-->
+  <test thread-count="5" name="Submit Order Test">
+  <groups>
+	<run>
+		<include name="Purchase"/>
+	</run>
+</groups>
+    <classes>
+      <class name="jayashgarg.OrderProductTest"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Error Validation Test">
+    <classes>
+      <class name="jayashgarg.ErrorValidation"/>
+    </classes>
+  </test>
+  <!-- Test -->
+</suite> <!-- Suite -->
